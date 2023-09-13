@@ -1,0 +1,2784 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nafie - Documentation</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Saira+Stencil+One&text=Nafie&display=swap"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="prettify/prettify.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    <div class="page-content">
+      <!-- side menu -->
+      <aside>
+        <!-- template logo -->
+        <div class="logo" title="Nafie">
+          <h1>
+            <a href="https://nafie.webrouk.com/html/"
+              target="_blank"
+              rel="noreferrer"
+              title="Nafie - HTML Portfolio Template">Nafie</a>
+          </h1>
+        </div>
+
+        <!-- menu links -->
+        <ul class="side-menu">
+          <li>
+            <a class="active" href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#get-started">Get Started</a>
+          </li>
+          <!-- <li>
+            <a href="#colors">Color Scheme</a>
+          </li> -->
+          <li>
+            <a href="#browser-tab-title">Browser Tab Title</a>
+          </li>
+          <li>
+            <a href="#favicon">Favicon</a>
+          </li>
+          <li>
+            <a href="#preloader">Preloader</a>
+          </li>
+          <li>
+            <a href="#header">Header</a>
+          </li>
+          <li>
+            <a href="#hero">Hero Section</a>
+          </li>
+          <li>
+            <a href="#statistics">My Statistics</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#skills">My Skills</a>
+          </li>
+          <li>
+            <a href="#experience">My Experience</a>
+          </li>
+          <li>
+            <a href="#portfolio">My Portfolio</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+          <li>
+            <a href="#archive-page">Archive Page</a>
+          </li>
+          <li>
+            <a href="#not-found-page">404 Page</a>
+          </li>
+          <li>
+            <a href="#thank-you">Thank you</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- main content -->
+      <main>
+        <!-- introduction section -->
+        <section id="introduction" class="section active">
+          <div class="section-content">
+            <h1>Nafie - HTML Portfolio Template</h1>
+            <h2>Documentation</h2>
+            <hr>
+            <ul>
+              <li><label>Created:</label> 04/2021</li>
+              <li><label>Updated:</label> 03/2022</li>
+              <li>
+                <label>By:</label>
+                <a href="https://themeforest.net/user/webrouk/portfolio" target="_blank" rel="noreferrer">
+                  Webrouk
+                </a>
+              </li>
+              <li>
+                <label>Email:</label>
+                <a href="mailto:support@webrouk.com">support@webrouk.com</a>
+              </li>
+            </ul>
+            <p>
+              Nafie is suitable as a resume website, personal CV, or creative Portfolio. It is ideal for professional persons. Perfect for showing your skills, experience, works and expertise.
+              <br />
+              Nafie is very easy to set up and customize and comes with a well documented help file, which will assist you configure the template in minutes.
+            </p>
+          </div>
+        </section>
+
+        <!-- get-started section -->
+        <section id="get-started" class="section">
+          <div class="section-content">
+            <h2>Get Started</h2>
+            <hr>
+            <br>
+            <p>So you’ve just purchased our HTML template and now you have to customize it before you can put it online, but you’re not experienced with code so you’re not sure how to go about it. Well, rest easy, because in this help file we’re going to step you through the entire process. We’re going to be working off the assumption you’ve never seen a line of HTML before, let alone edited one, so no matter how new you are to working with code you’ll be shown exactly what to do every step of the way.</p>
+            <p>Let’s start at the very beginning.</p>
+            <br>
+            <h3>What is HTML?</h3>
+            <p>Technically speaking the answer to this question is “Hyper Text Markup Language”. However, for the purposes of customizing a template, you can consider HTML as a series of opening and closing tags like this:</p>
+<pre class="prettyprint lang-html linenums:1">
+&lt;h1&gt;  &lt;/h1&gt;
+</pre>
+            <p>Tags are indicated with <strong><mark>&lt;</mark></strong> and <strong><mark>&gt;</mark></strong> signs, and the closing tag always includes a <strong><mark>/</mark></strong>. Pairs of tags have content in between them like this:</p>
+<pre class="prettyprint lang-html linenums:1">
+&lt;h1&gt;John Smith, Front End Developer&lt;/h1&gt;
+</pre>
+            <p>Sometimes, however, there are also stand alone tags, with no closing partner, like this:</p>
+<pre class="prettyprint lang-html linenums:1">
+&lt;img src="mypic.jpg"&gt;
+</pre>
+            <p>Different HTML tags make different types of content appear on a web page. The above example of <strong><mark>&lt;h1&gt;&lt;/h1&gt;</mark></strong> tags would create a large heading reading “John Smith, Front End Developer”, and the example <strong><mark>&lt;img&gt;</mark></strong> tag would make the image file “mypic.jpg” appear on the page.</p>
+            <p>To edit an HTML template all you need to know is which tags represent the parts of the page you want to change, how to find them in the code, and how to edit them so they show what you want.</p>
+            <br>
+            <h3>Get Yourself a Code Editor:</h3>
+            <p>Yes, it’s completely possible to edit HTML in Notepad or a similar program, but things will go much more smoothly for you if you use a proper code editing app. One of the main reasons is you’ll get colored highlighting of your code, as you’ll see shortly, which will make it much easier to read and edit. There are several Text Editors like-</p>
+            <ol>
+              <li><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">VS code</a></li>
+              <li><a href="https://atom.io/" target="_blank" rel="noreferrer">Atom</a></li>
+              <li><a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer">Sublime</a></li>
+            </ol>
+            <p>We are going to use <strong>Sublime Text</strong>, which you can download it from <a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer">its official website</a>.</p>
+            <br>
+            <p><strong>Congratulations!</strong> Now you have everything you need to start customizing your template.</p>
+          </div>
+        </section>
+
+        <!-- colors section -->
+        <!-- <section id="colors" class="section">
+          <div class="section-content">
+            <h2>Color Scheme</h2>
+            <hr>
+            <ul>
+              <li>
+                This template contains 4 main colors shown below:
+                <ol>
+                  <li><span class="color-sample" style="background-color: hsl(24, 74%, 58%);"></span> Primary color</li>
+                  <li><span class="color-sample" style="background-color: hsl(13, 96%, 47%);"></span> Secondary color</li>
+                  <li><span class="color-sample" style="background-color: hsl(0, 0%, 100%);"></span> Light color</li>
+                  <li><span class="color-sample" style="background-color: hsl(0, 0%, 12%);"></span> Dark color</li>
+                </ol>
+                <br>
+              </li>
+              <li>
+                To change any of these colors, you need to go through two steps:
+                <ol>
+                  <li>
+                    Use the Color Picker to choose a new color. Then copy the three values ​​Hue, Saturation and lightness.
+                    <br>
+                    <br>
+
+                    // start HSL Color Picker
+                    <div class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="yLoYqrz" data-user="muhammad_mabrouk" style="height: 300px; -webkit-box-sizing: border-box; box-sizing: border-box; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                      <span>See the Pen <a href="https://codepen.io/muhammad_mabrouk/pen/yLoYqrz">
+                      HSL Color Picker</a> by Muhammad Mabrouk (<a href="https://codepen.io/muhammad_mabrouk">@muhammad_mabrouk</a>)
+                      on <a href="https://codepen.io">CodePen</a>.</span>
+                    </div>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    // end HSL Color Picker
+                    <br>
+                    <br>
+                  </li>
+                  <li>
+                    Suppose we want to change the <strong>Primary</strong> color, to do this open the <strong>styles/main.css</strong> file, go to the <strong>Color Codes</strong> section and replace the old values highlighted in yellow with the new values from the Color Picker.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+
+<pre class="prettyprint lang-css linenums:68">
+/*-----------------------------------------------------------------------------------------*/
+/* 1. Color Codes */
+/*-----------------------------------------------------------------------------------------*/
+:root {
+  /* primary color */
+  --primary-h: <span class="yellow-highlight">24</span>;
+  --primary-s: <span class="yellow-highlight">74</span>%;
+  --primary-l: <span class="yellow-highlight">58</span>%;
+  --primary-color: hsl(
+    var(--primary-h),
+    var(--primary-s),
+    var(--primary-l)
+  );
+  /* secondary color */
+  --secondary-h: 13;
+  --secondary-s: 96%;
+  --secondary-l: 47%;
+  --secondary-color: hsl(
+    var(--secondary-h),
+    var(--secondary-s),
+    var(--secondary-l)
+  );
+  /* light color */
+  --light-h: 0;
+  --light-s: 0%;
+  --light-l: 100%;
+  --light-color: hsl(
+    var(--light-h),
+    var(--light-s),
+    var(--light-l)
+  );
+  /* dark color */
+  --dark-h: 0;
+  --dark-s: 0%;
+  --dark-l: 12%;
+  --dark-color: hsl(
+    var(--dark-h),
+    var(--dark-s),
+    var(--dark-l)
+  );
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section> -->
+
+        <!-- browser tab title section -->
+        <section id="browser-tab-title" class="section">
+          <div class="section-content">
+            <h2>Browser Tab Title</h2>
+            <hr>
+            <ul>
+              <li>
+                To change the page title of the browser tab Open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:10">
+&lt;!-- title of the browser tab--&gt;
+&lt;title&gt;<span class="yellow-highlight">Nafie - HTML Portfolio Template</span>&lt;/title&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- favicon section -->
+        <section id="favicon" class="section">
+          <div class="section-content">
+            <h2>Change Favicon</h2>
+            <hr>
+            <ul>
+              <li>
+                To change the Favicon open the <strong>index.html</strong> file, find the following code and replace the blue highlighted text with your own favicon <strong>Path/URL</strong> or just replace the favicon image located in <strong>'assets/favicon.ico'</strong> with new image.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:13">
+&lt;!-- favicon--&gt;
+&lt;link rel="icon" href="<span class="blue-highlight">assets/favicon.ico</span>"&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- preloader section -->
+        <section id="preloader" class="section">
+          <div class="section-content">
+            <h2>Turn Off Preloader</h2>
+            <hr>
+            <ul>
+              <li>
+                In case you want to turn off the preloader screen, open the <strong>index.html</strong> file using your text editor, find the following code and remove it.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:40">
+&lt;!-- start preloader--&gt;
+&lt;div class="preloader" ref="preloader"&gt;
+  &lt;div class="preloader-content"&gt;
+    &lt;div class="logo"&gt;
+      &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 199"&gt;
+        &lt;path d="M0.720001 8.91999V0.855993H58.32L169.488 190.648V199H112.176L0.720001 8.91999ZM114.768 73.144V0.855993H169.488V166.744L114.768 73.144ZM0.720001 32.824L55.44 126.424V199H0.720001V32.824Z" /&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+    &lt;div class="loading-bar"&gt;
+      &lt;span class="loading-bar-progress"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end preloader--&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- header section -->
+        <section id="header" class="section">
+          <div class="section-content">
+            <h2>Header</h2>
+            <hr><br>
+            <h3>Site Logo</h3>
+            <ul>
+              <li>To change the logo open the <strong>index.html</strong> file using your text editor, find the following code and replace the yellow highlighted text with your website title.</li>
+            </ul>
+<pre class="prettyprint lang-html linenums:16">
+&lt;!-- fonts --&gt;
+&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&text=<span class="yellow-highlight">Nafie</span>&display=swap"&gt;
+</pre>
+<pre class="prettyprint lang-html linenums:62">
+&lt;!-- logo --&gt;
+&lt;div class="logo" title="<span class="yellow-highlight">Nafie</span>"&gt;
+  &lt;h1&gt;&lt;a href="index.html"&gt;<span class="yellow-highlight">Nafie</span>&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+</pre>
+<pre class="prettyprint lang-html linenums:651">
+&lt;!-- start of footer --&gt;
+&lt;footer&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-lg-6"&gt;
+        &lt;!-- logo --&gt;
+        &lt;div class="logo" title="<span class="yellow-highlight">Nafie</span>"&gt;
+          &lt;h1&gt;&lt;a href="index.html"&gt;<span class="yellow-highlight">Nafie</span>&lt;/a&gt;&lt;/h1&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Navigation Links</h3>
+            <ul>
+              <li>
+                To edit the <strong>Navbar Links</strong> open the <strong>scripts/main.js</strong> file using your text editor, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                Replace the red highlighted text with new <strong>URLs</strong> or section <strong>IDs</strong> as shown below:
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:467">
+// list of nav links to loop through it
+navLinks: [
+  {
+    url: '<span class="red-highlight">#hero</span>',
+    title: { en: '<span class="yellow-highlight">Home</span>', ar: '<span class="yellow-highlight">الرئيسية</span>' }
+  }, {
+    url: '<span class="red-highlight">#about</span>',
+    title: { en: '<span class="yellow-highlight">About</span>', ar: '<span class="yellow-highlight">من أنا</span>' }
+  }, {
+    url: '<span class="red-highlight">#skills</span>',
+    title: { en: '<span class="yellow-highlight">Skills</span>', ar: '<span class="yellow-highlight">مهاراتي</span>' }
+  }, {
+    url: '<span class="red-highlight">#portfolio</span>',
+    title: { en: '<span class="yellow-highlight">Portfolio</span>', ar: '<span class="yellow-highlight">أعمالي</span>' }
+  }, {
+    url: '<span class="red-highlight">#contact</span>',
+    title: { en: '<span class="yellow-highlight">Contact</span>', ar: '<span class="yellow-highlight">اتصل بي</span>' }
+  }
+],
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Side Menu</h3>
+            <ul>
+              <li>
+                To change the text in <strong>Side Menu</strong>, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                Replace the red highlighted text with your email addresses and phone numbers in a valid format.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:79">
+&lt;!-- menu content in big devices (hidden in mobile/tablet) --&gt;
+&lt;div class="desktop-menu-content" tabindex="-1"&gt;
+  &lt;div class="container"&gt;
+
+    &lt;!-- about us --&gt;
+    &lt;div class="about-us"&gt;
+      &lt;p&gt;
+        <span class="yellow-highlight">I love making things simple, intuitive and expertly crafted!</span>
+      &lt;/p&gt;
+      &lt;h4 class="block-title"&gt;
+        <span class="yellow-highlight">Product is the vital essence of what i do, truly great product is born of meticulous planning and process. This is where i specialized!</span>
+      &lt;/h4&gt;
+    &lt;/div&gt;
+
+    &lt;!-- contact info --&gt;
+    &lt;ul class="contact-info row"&gt;
+      &lt;li class="col-lg-4"&gt;
+        &lt;h4 class="block-title"&gt;<span class="yellow-highlight">Email</span>&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href="mailto:<span class="red-highlight">info@nafie.com</span>"&gt;<span class="yellow-highlight">info@nafie.com</span>&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="mailto:<span class="red-highlight">support@nafie.com</span>"&gt;<span class="yellow-highlight">support@nafie.com</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="col-lg-4"&gt;
+        &lt;h4 class="block-title"&gt;<span class="yellow-highlight">Address</span>&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            <span class="yellow-highlight">941 saqrqorish Road, alandalos,</span>
+            &lt;br&gt;
+            <span class="yellow-highlight">grnata, wa 47122-4194</span>
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class="col-lg-4"&gt;
+        &lt;h4 class="block-title"&gt;<span class="yellow-highlight">Phone</span>&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href="tel:<span class="red-highlight">02966202290</span>"&gt;<span class="yellow-highlight">(02) 966 202 290</span>&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="tel:<span class="red-highlight">02966202291</span>"&gt;<span class="yellow-highlight">(02) 966 202 291</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- hero section -->
+        <section id="hero" class="section">
+          <div class="section-content">
+            <h2>Hero Section</h2>
+            <hr><br>
+            <h3>Hero Image</h3>
+            <ul>
+              <li>
+                To change the <strong>Hero Image</strong>, open the <strong>index.html</strong> file, find the following code and replace the path highlighted in blue with the <strong>Path/URL</strong> of the new image.
+              </li>
+              <li>
+                Replace the yellow highlighted text with your name.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:166">
+&lt;!-- start of hero section --&gt;
+&lt;div id="hero"
+  class="hero-section hide-in-preloading"
+  data-paneffect="true"
+  ref="heroSection"&gt;
+  &lt;div class="hero-img"&gt;
+    &lt;div class="layer" v-clone&gt;
+      &lt;img src="<span class="blue-highlight">assets/images/hero-img.png</span>" alt="<span class="yellow-highlight">User Name</span>"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Hero Text</h3>
+            <ul>
+              <li>
+                To change the text in <strong>Hero Section</strong>, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                Replace the red highlighted text with the <strong>URL</strong> of the button.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:176">
+<span class="more">...</span>
+&lt;div class="hero-text"&gt;
+  &lt;h2&gt;
+    <span class="yellow-highlight">We Design & Build</span>
+    &lt;br&gt;
+    <span class="yellow-highlight">Creative Products</span>
+  &lt;/h2&gt;
+  &lt;a href="<span class="red-highlight">#contact</span>" class="btn"&gt;<span class="yellow-highlight">Get In Touch</span>&lt;/a&gt;
+&lt;/div&gt;
+<span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Social Icons</h3>
+            <ul>
+              <li>
+                To change the social networks titles open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new titles.
+              </li>
+              <li>
+                To change icons for social networks, go to <a href="https://themes.webrouk.com/font-awesome-icons/font-awesome-icons.html" target="_blank" rel="noreferrer">this page</a>, choose the icon you want and copy its class. Then replace the blue highlighted text with the new class.
+              </li>
+              <li>
+                Replace the red highlighted text with the <strong>URLs</strong> for social icons.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:185">
+<span class="more">...</span>
+&lt;div class="social"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">Facebook</span>', dir: 'right'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-facebook</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">Twitter</span>', dir: 'right'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-twitter</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">LinkedIn</span>', dir: 'right'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-linkedin</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+<span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- statistics section -->
+        <section id="statistics" class="section">
+          <div class="section-content">
+            <h2>My Statistics</h2>
+            <hr>
+            <ul>
+              <li>
+                To change the text in <strong>My Statistics</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                To change the <strong>Statistics Icons</strong>, replace the path highlighted in blue with the <strong>Path/URL</strong> of the new icons.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:212">
+&lt;!-- start of statistics section --&gt;
+&lt;div id="statistics" class="statistics-section section"&gt;
+  &lt;div class="section-content"&gt;
+    &lt;div class="container"&gt;
+      &lt;ul class="statistics-items row"&gt;
+        &lt;li class="col-sm-12 col-md-6 col-lg-4"&gt;
+          &lt;a href="#experience"&gt;
+            &lt;div class="icon"&gt;
+              &lt;img src="<span class="blue-highlight">assets/images/icons/emblem.png</span>" alt="<span class="yellow-highlight">Years of Experience</span>"&gt;
+            &lt;/div&gt;
+            &lt;div class="text"&gt;
+              &lt;h3&gt;{{ experienceYears }}+&lt;/h3&gt;
+              &lt;strong&gt;<span class="yellow-highlight">Years of Experience</span>&lt;/strong&gt;
+            &lt;/div&gt;
+            &lt;i class="fa fa-angle-right" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="col-sm-12 col-md-6 col-lg-4"&gt;
+          &lt;a href="#portfolio"&gt;
+            &lt;div class="icon"&gt;
+              &lt;img src="<span class="blue-highlight">assets/images/icons/check-mark.png</span>" alt="<span class="yellow-highlight">Completed Projects</span>"&gt;
+            &lt;/div&gt;
+            &lt;div class="text"&gt;
+              &lt;h3&gt;<span class="yellow-highlight">230+</span>&lt;/h3&gt;
+              &lt;strong&gt;<span class="yellow-highlight">Completed Projects</span>&lt;/strong&gt;
+            &lt;/div&gt;
+            &lt;i class="fa fa-angle-right" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="col-sm-12 col-md-6 col-lg-4"&gt;
+          &lt;a href="#testimonials"&gt;
+            &lt;div class="icon"&gt;
+              &lt;img src="<span class="blue-highlight">assets/images/icons/happy.png</span>" alt="<span class="yellow-highlight">Happy Clients</span>"&gt;
+            &lt;/div&gt;
+            &lt;div class="text"&gt;
+              &lt;h3&gt;<span class="yellow-highlight">95+</span>&lt;/h3&gt;
+              &lt;strong&gt;<span class="yellow-highlight">Happy Clients</span>&lt;/strong&gt;
+            &lt;/div&gt;
+            &lt;i class="fa fa-angle-right" aria-hidden="true"&gt;&lt;/i&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of statistics section --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Years of Experience</h3>
+            <ul>
+              <li>
+                To change the <strong>Years of Experience</strong>, open the <strong>scripts/main.js</strong> file, find the following code and replace the red highlighted date with new date.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:438">
+  /* ------------------------------------- */
+  const app = Vue.createApp({
+    mixins: [animationsMixin],
+
+    data() {
+      return {
+        // the date my career started (change to yours)
+        careerStartDate: <span class="red-highlight">2010</span>,
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- about section -->
+        <section id="about" class="section">
+          <div class="section-content">
+            <h2>About Me</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>About Me</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                Replace the red highlighted text with the <strong>URLs</strong> for the buttons.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:270">
+      <span class="more">...</span>
+      &lt;!-- text box --&gt;
+      &lt;div class="about-text col-lg-6"&gt;
+        &lt;div class="text-box"&gt;
+          &lt;span class="subtitle"&gt;<span class="yellow-highlight">about me</span>&lt;/span&gt;
+          &lt;h2&gt;
+            <span class="yellow-highlight">Need a Creative Product?</span>
+            &lt;br&gt;
+            <span class="yellow-highlight">I can Help You!</span>
+          &lt;/h2&gt;
+          &lt;p&gt;
+            <span class="yellow-highlight">Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.</span>
+          &lt;/p&gt;
+          &lt;div class="btns-container"&gt;
+            &lt;a href="<span class="red-highlight">#contact</span>" class="btn btn-primary"&gt;<span class="yellow-highlight">Hire Me</span>&lt;/a&gt;
+            &lt;a download href="<span class="red-highlight">#</span>" class="btn btn-outline-light"&gt;<span class="yellow-highlight">Download CV</span>&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of about section --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>About Image</h3>
+            <ul>
+              <li>
+                To change the <strong>About Image</strong>, open the <strong>index.html</strong> file, find the following code and replace the path highlighted in blue with the <strong>Path/URL</strong> of the new image.
+              </li>
+              <li>
+                Replace the yellow highlighted text with your name.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:259">
+&lt;!-- start of about section --&gt;
+&lt;div id="about" class="about-section section" tabindex="-1" ref="aboutSection"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-content row"&gt;
+
+      &lt;!-- about image --&gt;
+      &lt;div class="about-img col-lg-6"&gt;
+        &lt;div class="layer" v-clone&gt;
+          &lt;img src="<span class="blue-highlight">assets/images/about-img.png</span>" alt="<span class="yellow-highlight">User Name</span>"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- skills section -->
+        <section id="skills" class="section">
+          <div class="section-content">
+            <h2>My Skills</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>My Skills</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:294">
+&lt;!-- start of skills section --&gt;
+&lt;div id="skills" class="skills-section section" tabindex="-1"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-content row"&gt;
+
+      &lt;!-- text box --&gt;
+      &lt;div class="skills-text col-lg-6"&gt;
+        &lt;div class="text-box"&gt;
+          &lt;span class="subtitle"&gt;<span class="yellow-highlight">my skills</span>&lt;/span&gt;
+          &lt;h2&gt;
+            <span class="yellow-highlight">What My Programming</span>
+            &lt;br&gt;
+            <span class="yellow-highlight">Skills Included?</span>
+          &lt;/h2&gt;
+          &lt;p&gt;
+            <span class="yellow-highlight">I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.</span>
+          &lt;/p&gt;
+          &lt;div class="toggle-switch-btn"&gt;
+            &lt;input id="skills-list" type="radio" name="skillstype" value="skills" v-model="isSkillsOrTools" checked&gt;
+            &lt;label for="skills-list" class="link-hover"&gt;<span class="yellow-highlight">Skills</span>&lt;/label&gt;
+            &lt;input id="tools-list" type="radio" name="skillstype" value="tools" v-model="isSkillsOrTools"&gt;
+            &lt;label for="tools-list" class="link-hover"&gt;<span class="yellow-highlight">Tools</span>&lt;/label&gt;
+            &lt;span class="switcher-toggle"&gt;&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Skills & Tools</h3>
+            <ul>
+              <li>
+                To edit the <strong>Skills & Tools</strong> items, open the <strong>scripts/main.js</strong> file, find the following code, replace the yellow highlighted text with the skill/tool name and replace the blue highlighted text with the <strong>Path/URL</strong> of the new image.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:501">
+// list of skills items to loop through it
+skillsItems: [
+  {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/html5.png</span>',
+    title: '<span class="yellow-highlight">HTML5</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/css3.png</span>',
+    title: '<span class="yellow-highlight">CSS3</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/javascript.png</span>',
+    title: '<span class="yellow-highlight">JavaScript</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/typescript.png</span>',
+    title: '<span class="yellow-highlight">TypeScript</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/jquery.png</span>',
+    title: '<span class="yellow-highlight">jQuery</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/bootstrap.png</span>',
+    title: '<span class="yellow-highlight">Bootstrap</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/angular.png</span>',
+    title: '<span class="yellow-highlight">Angular</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/react.png</span>',
+    title: '<span class="yellow-highlight">React</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/vue.png</span>',
+    title: '<span class="yellow-highlight">Vue</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/firebase.png</span>',
+    title: '<span class="yellow-highlight">Firebase</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/pugjs.png</span>',
+    title: '<span class="yellow-highlight">PugJS</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/sass.png</span>',
+    title: '<span class="yellow-highlight">SASS</span>'
+  }
+],
+
+// list of tools items to loop through it
+toolsItems: [
+  {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/ajax.png</span>',
+    title: '<span class="yellow-highlight">Ajax</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/gulp.png</span>',
+    title: '<span class="yellow-highlight">Gulp</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/webpack.png</span>',
+    title: '<span class="yellow-highlight">Webpack</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/git.png</span>',
+    title: '<span class="yellow-highlight">Git (Github)</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/npm.png</span>',
+    title: '<span class="yellow-highlight">Npm</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/command.png</span>',
+    title: '<span class="yellow-highlight">Command Line</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/vs-code.png</span>',
+    title: '<span class="yellow-highlight">VS Code</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/trello.png</span>',
+    title: '<span class="yellow-highlight">Trello</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/clickup.png</span>',
+    title: '<span class="yellow-highlight">ClickUp</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/slack.png</span>',
+    title: '<span class="yellow-highlight">Slack</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/photoshop.png</span>',
+    title: '<span class="yellow-highlight">Photoshop</span>'
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/skills/adobe-xd.png</span>',
+    title: '<span class="yellow-highlight">Adobe XD</span>'
+  }
+],
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- experience section -->
+        <section id="experience" class="section">
+          <div class="section-content">
+            <h2>My Experience</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>My Experience</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:384">
+      <span class="more">...</span>
+      &lt;!-- text box --&gt;
+      &lt;div class="experience-text col-lg-6"&gt;
+        &lt;div class="text-box"&gt;
+          &lt;span class="subtitle"&gt;<span class="yellow-highlight">experience</span>&lt;/span&gt;
+          &lt;h2&gt;
+            {{ experienceYears }}+ <span class="yellow-highlight">Years of Experience</span>
+            &lt;br&gt;
+            <span class="yellow-highlight">With Many Awards!</span>
+          &lt;/h2&gt;
+          &lt;p&gt;
+            <span class="yellow-highlight">I have been developing sites and apps for {{ experienceYears }} years and i know for sure the main trends and directions of modern design, I have been a visionary and a reliable software engineering partner for world-class brands. You will get a decent result as you expect.</span>
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of experience section --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Experience Timeline</h3>
+            <ul>
+              <li>
+                To edit the <strong>Experience Timeline</strong>, open the <strong>scripts/main.js</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:577">
+// list of experience items to loop through it
+experienceItems: [
+  {
+    date: '<span class="yellow-highlight">2010</span>',
+    companyName: { en: '<span class="yellow-highlight">Google Inc.</span>', ar: '<span class="yellow-highlight">شركة جوجل</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Front-End Developer</span>', ar: '<span class="yellow-highlight">مطور الواجهة الأمامية</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Monitored technical aspects of the front-end delivery for projects.</span>',
+      ar: '<span class="yellow-highlight">مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2012</span>',
+    companyName: { en: '<span class="yellow-highlight">Facebook Inc.</span>', ar: '<span class="yellow-highlight">شركة فيسبوك</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Full Stack Developer</span>', ar: '<span class="yellow-highlight">مطوّر الويب المتكامل</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Collaborate with creative and development teams on the execution of ideas.</span>',
+      ar: '<span class="yellow-highlight">تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2014</span>',
+    companyName: { en: '<span class="yellow-highlight">Envato Inc.</span>', ar: '<span class="yellow-highlight">شركة انفاتو</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">UI/UX Developer</span>', ar: '<span class="yellow-highlight">مطور UI/UX</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.</span>',
+      ar: '<span class="yellow-highlight">تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2016</span>',
+    companyName: { en: '<span class="yellow-highlight">Google Inc.</span>', ar: '<span class="yellow-highlight">شركة جوجل</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Front-End Developer</span>', ar: '<span class="yellow-highlight">مطور الواجهة الأمامية</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Monitored technical aspects of the front-end delivery for projects.</span>',
+      ar: '<span class="yellow-highlight">مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2018</span>',
+    companyName: { en: '<span class="yellow-highlight">Facebook Inc.</span>', ar: '<span class="yellow-highlight">شركة فيسبوك</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Full Stack Developer</span>', ar: '<span class="yellow-highlight">مطوّر الويب المتكامل</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Collaborate with creative and development teams on the execution of ideas.</span>',
+      ar: '<span class="yellow-highlight">تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2020</span>',
+    companyName: { en: '<span class="yellow-highlight">Google Inc.</span>', ar: '<span class="yellow-highlight">شركة جوجل</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Front-End Developer</span>', ar: '<span class="yellow-highlight">مطور الواجهة الأمامية</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Monitored technical aspects of the front-end delivery for projects.</span>',
+      ar: '<span class="yellow-highlight">مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.</span>'
+    }
+  }, {
+    date: '<span class="yellow-highlight">2022</span>',
+    companyName: { en: '<span class="yellow-highlight">Facebook Inc.</span>', ar: '<span class="yellow-highlight">شركة فيسبوك</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Full Stack Developer</span>', ar: '<span class="yellow-highlight">مطوّر الويب المتكامل</span>' },
+    desc: {
+      en: '<span class="yellow-highlight">Collaborate with creative and development teams on the execution of ideas.</span>',
+      ar: '<span class="yellow-highlight">تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.</span>'
+    }
+  }, {}, {}
+],
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section id="portfolio" class="section">
+          <div class="section-content">
+            <h2>My Portfolio</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>My Portfolio</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                To change the <strong>'No more works'</strong> message, replace the blue highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:404">
+&lt;!-- start of portfolio section --&gt;
+&lt;div id="portfolio" class="portfolio-section section" tabindex="-1"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-content"&gt;
+
+      &lt;!-- portfolio items --&gt;
+      &lt;ul class="portfolio-items" ref="portfolioItems" data-no-works-msg="<span class="blue-highlight">No works to load</span>"&gt;
+        &lt;li&gt;
+          &lt;!-- text box --&gt;
+          &lt;div class="text-box"&gt;
+            &lt;span class="subtitle"&gt;<span class="yellow-highlight">my works</span>&lt;/span&gt;
+            &lt;h2&gt;
+              <span class="yellow-highlight">See My Works Which</span>
+              &lt;br&gt;
+              <span class="yellow-highlight">Will Amaze You!</span>
+            &lt;/h2&gt;
+            &lt;p&gt;
+              <span class="yellow-highlight">We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.</span>
+            &lt;/p&gt;
+            &lt;ul class="works-filter"&gt;
+              &lt;li v-for="filter in filters" :key="filter"&gt;
+                &lt;button :class="{'active': currentFilter === filter}"
+                  @click="filterPortfolioItems(filter)"&gt;
+                  {{ filter }}
+                &lt;/button&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Length & Filters</h3>
+            <ul>
+              <li>
+                You can change the number of items per page by changing the number highlighted in red.
+              </li>
+              <li>
+                Change the filters highlighted in yellow to match the names of the portfolio items categories. You can add more if you want but be careful not to distort the design.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:679">
+// portfolio items per page
+itemsPerPage: <span class="red-highlight">7</span>,
+
+// portfolio items filter by type
+filters: ['All', <span class="yellow-highlight">'HTML'</span>, <span class="yellow-highlight">'Angular'</span>, <span class="yellow-highlight">'Vue'</span>],
+currentFilter: 'All',
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Portfolio Items</h3>
+            <ul>
+              <li>
+                To edit the list of <strong>Portfolio Items</strong>, open the <strong>scripts/main.js</strong> file, find the following code, replace the yellow highlighted text with your work data, replace the blue highlighted text with the <strong>Path/URL</strong> of the work image, and replace the red highlighted text with your work <strong>category</strong> name.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:686">
+// list of portfolio items to loop through it
+allPortfolioItems: [
+  {
+    id: 1,
+    url: 'single-portfolio.html?id=1',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-1.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 1</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 1</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 2,
+    url: 'single-portfolio.html?id=2',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-2.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 2</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 2</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 3,
+    url: 'single-portfolio.html?id=3',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-3.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 3</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 3</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 4,
+    url: 'single-portfolio.html?id=4',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-4.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 4</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 4</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 5,
+    url: 'single-portfolio.html?id=5',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-5.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 5</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 5</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 6,
+    url: 'single-portfolio.html?id=6',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-6.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 6</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 6</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 7,
+    url: 'single-portfolio.html?id=7',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-7.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 7</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 7</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 8,
+    url: 'single-portfolio.html?id=8',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-8.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 8</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 8</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 9,
+    url: 'single-portfolio.html?id=9',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-9.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 9</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 9</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 10,
+    url: 'single-portfolio.html?id=10',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-10.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 10</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 10</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 11,
+    url: 'single-portfolio.html?id=11',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-11.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 11</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 11</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 12,
+    url: 'single-portfolio.html?id=12',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-12.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 12</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 12</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 13,
+    url: 'single-portfolio.html?id=13',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-13.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 13</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 13</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 14,
+    url: 'single-portfolio.html?id=14',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-14.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 14</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 14</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 15,
+    url: 'single-portfolio.html?id=15',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-15.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 15</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 15</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Angular', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 16,
+    url: 'single-portfolio.html?id=16',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-16.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 16</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 16</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">HTML</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 17,
+    url: 'single-portfolio.html?id=17',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-17.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 17</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 17</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Angular</span>',
+    tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'TailwindCSS', 'AJAX', 'Angular', 'Firebase'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }, {
+    id: 18,
+    url: 'single-portfolio.html?id=18',
+    imgUrl: '<span class="blue-highlight">assets/images/portfolio/portfolio-18.png</span>',
+    title: { en: '<span class="yellow-highlight">Lorem Ipsum Dolor 18</span>', ar: '<span class="yellow-highlight">هنا عنوان المشروع 18</span>' },
+    date: { en: '<span class="yellow-highlight">April 2021</span>', ar: '<span class="yellow-highlight">أبريل 2021</span>' },
+    desc: {
+      en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+      ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
+    },
+    category: '<span class="red-highlight">Vue</span>',
+    tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+    screenshots: {
+      img1: {
+        url: 'assets/images/single-portfolio/single-portfolio-5.png',
+        caption: { en: 'caption 5', ar: 'تسمية توضيحية 5' }
+      },
+      img2: {
+        url: 'assets/images/single-portfolio/single-portfolio-4.png',
+        caption: { en: 'caption 4', ar: 'تسمية توضيحية 4' }
+      },
+      img3: {
+        url: 'assets/images/single-portfolio/single-portfolio-3.png',
+        caption: { en: 'caption 3', ar: 'تسمية توضيحية 3' }
+      },
+      img4: {
+        url: 'assets/images/single-portfolio/single-portfolio-2.png',
+        caption: { en: 'caption 2', ar: 'تسمية توضيحية 2' }
+      },
+      img5: {
+        url: 'assets/images/single-portfolio/single-portfolio-1.png',
+        caption: { en: 'caption 1', ar: 'تسمية توضيحية 1' }
+      }
+    }
+  }
+].reverse(),
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Single Portfolio Item</h3>
+            <ul>
+              <li>
+                To edit the <strong>Single Portfolio Item</strong> data, open the <strong>scripts/main.js</strong> file, find the following code, replace the yellow highlighted text with your work data, replace the blue highlighted text with the <strong>Path/URL</strong> of the work inner images, and replace the red highlighted text with the <strong>tools</strong> you used to create this work.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:686">
+// list of portfolio items to loop through it
+allPortfolioItems: [
+  {
+    id: 1,
+    url: 'single-portfolio.html?id=1',
+    imgUrl: 'assets/images/portfolio/portfolio-1.png',
+    title: { en: 'Lorem Ipsum Dolor 1', ar: 'هنا عنوان المشروع 1' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 2,
+    url: 'single-portfolio.html?id=2',
+    imgUrl: 'assets/images/portfolio/portfolio-2.png',
+    title: { en: 'Lorem Ipsum Dolor 2', ar: 'هنا عنوان المشروع 2' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 3,
+    url: 'single-portfolio.html?id=3',
+    imgUrl: 'assets/images/portfolio/portfolio-3.png',
+    title: { en: 'Lorem Ipsum Dolor 3', ar: 'هنا عنوان المشروع 3' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 4,
+    url: 'single-portfolio.html?id=4',
+    imgUrl: 'assets/images/portfolio/portfolio-4.png',
+    title: { en: 'Lorem Ipsum Dolor 4', ar: 'هنا عنوان المشروع 4' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 5,
+    url: 'single-portfolio.html?id=5',
+    imgUrl: 'assets/images/portfolio/portfolio-5.png',
+    title: { en: 'Lorem Ipsum Dolor 5', ar: 'هنا عنوان المشروع 5' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 6,
+    url: 'single-portfolio.html?id=6',
+    imgUrl: 'assets/images/portfolio/portfolio-6.png',
+    title: { en: 'Lorem Ipsum Dolor 6', ar: 'هنا عنوان المشروع 6' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 7,
+    url: 'single-portfolio.html?id=7',
+    imgUrl: 'assets/images/portfolio/portfolio-7.png',
+    title: { en: 'Lorem Ipsum Dolor 7', ar: 'هنا عنوان المشروع 7' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 8,
+    url: 'single-portfolio.html?id=8',
+    imgUrl: 'assets/images/portfolio/portfolio-8.png',
+    title: { en: 'Lorem Ipsum Dolor 8', ar: 'هنا عنوان المشروع 8' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 9,
+    url: 'single-portfolio.html?id=9',
+    imgUrl: 'assets/images/portfolio/portfolio-9.png',
+    title: { en: 'Lorem Ipsum Dolor 9', ar: 'هنا عنوان المشروع 9' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 10,
+    url: 'single-portfolio.html?id=10',
+    imgUrl: 'assets/images/portfolio/portfolio-10.png',
+    title: { en: 'Lorem Ipsum Dolor 10', ar: 'هنا عنوان المشروع 10' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 11,
+    url: 'single-portfolio.html?id=11',
+    imgUrl: 'assets/images/portfolio/portfolio-11.png',
+    title: { en: 'Lorem Ipsum Dolor 11', ar: 'هنا عنوان المشروع 11' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 12,
+    url: 'single-portfolio.html?id=12',
+    imgUrl: 'assets/images/portfolio/portfolio-12.png',
+    title: { en: 'Lorem Ipsum Dolor 12', ar: 'هنا عنوان المشروع 12' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 13,
+    url: 'single-portfolio.html?id=13',
+    imgUrl: 'assets/images/portfolio/portfolio-13.png',
+    title: { en: 'Lorem Ipsum Dolor 13', ar: 'هنا عنوان المشروع 13' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 14,
+    url: 'single-portfolio.html?id=14',
+    imgUrl: 'assets/images/portfolio/portfolio-14.png',
+    title: { en: 'Lorem Ipsum Dolor 14', ar: 'هنا عنوان المشروع 14' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 15,
+    url: 'single-portfolio.html?id=15',
+    imgUrl: 'assets/images/portfolio/portfolio-15.png',
+    title: { en: 'Lorem Ipsum Dolor 15', ar: 'هنا عنوان المشروع 15' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 16,
+    url: 'single-portfolio.html?id=16',
+    imgUrl: 'assets/images/portfolio/portfolio-16.png',
+    title: { en: 'Lorem Ipsum Dolor 16', ar: 'هنا عنوان المشروع 16' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'HTML',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Bootstrap'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 17,
+    url: 'single-portfolio.html?id=17',
+    imgUrl: 'assets/images/portfolio/portfolio-17.png',
+    title: { en: 'Lorem Ipsum Dolor 17', ar: 'هنا عنوان المشروع 17' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Angular',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'PugJS'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'SCSS'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'Gulp'</span>, <span class="red-highlight">'TailwindCSS'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Angular'</span>, <span class="red-highlight">'Firebase'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }, {
+    id: 18,
+    url: 'single-portfolio.html?id=18',
+    imgUrl: 'assets/images/portfolio/portfolio-18.png',
+    title: { en: 'Lorem Ipsum Dolor 18', ar: 'هنا عنوان المشروع 18' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    desc: {
+      en: '<span class="yellow-highlight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>',
+      ar: '<span class="yellow-highlight">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</span>'
+    },
+    category: 'Vue',
+    tools: [<span class="red-highlight">'HTML'</span>, <span class="red-highlight">'Slim'</span>, <span class="red-highlight">'CSS'</span>, <span class="red-highlight">'Less'</span>, <span class="red-highlight">'JavaScript'</span>, <span class="red-highlight">'TypeScript'</span>, <span class="red-highlight">'Materialize'</span>, <span class="red-highlight">'AJAX'</span>, <span class="red-highlight">'Vue'</span>, <span class="red-highlight">'NodeJs'</span>, <span class="red-highlight">'MongoDB'</span>],
+    screenshots: {
+      img1: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-5.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 5</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 5</span>' }
+      },
+      img2: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-4.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 4</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 4</span>' }
+      },
+      img3: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-3.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 3</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 3</span>' }
+      },
+      img4: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-2.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 2</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 2</span>' }
+      },
+      img5: {
+        url: '<span class="blue-highlight">assets/images/single-portfolio/single-portfolio-1.png</span>',
+        caption: { en: '<span class="yellow-highlight">caption 1</span>', ar: '<span class="yellow-highlight">تسمية توضيحية 1</span>' }
+      }
+    }
+  }
+].reverse(),
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <ul>
+              <li>
+                Do not forget to replace the <strong>ID</strong>s highlighted in red with appropriate numbers in all portfolio items.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:686">
+// list of portfolio items to loop through it
+allPortfolioItems: [
+  {
+    id: <span class="red-highlight">1</span>,
+    url: 'single-portfolio.html?id=<span class="red-highlight">1</span>',
+    imgUrl: 'assets/images/portfolio/portfolio-1.png',
+    title: { en: 'Lorem Ipsum Dolor 1', ar: 'هنا عنوان المشروع 1' },
+    date: { en: 'April 2021', ar: 'أبريل 2021' },
+    <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- testimonials section -->
+        <section id="testimonials" class="section">
+          <div class="section-content">
+            <h2>Testimonials</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>Testimonials</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:459">
+&lt;!-- start of testimonials section --&gt;
+&lt;div id="testimonials" class="testimonials-section section" tabindex="-1"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-title"&gt;
+      &lt;span class="subtitle"&gt;<span class="yellow-highlight">testimonials</span>&lt;/span&gt;
+      &lt;h2&gt;
+        <span class="yellow-highlight">Check What's My Clients</span>
+        &lt;br&gt;
+        <span class="yellow-highlight">Say About Me</span>
+      &lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Clients Reviews</h3>
+            <ul>
+              <li>
+                To edit the <strong>Clients Reviews</strong>, open the <strong>scripts/main.js</strong> file, find the following code, replace the yellow highlighted text with new text and replace the blue highlighted text with the <strong>Path/URL</strong> of the client image.
+              </li>
+            </ul>
+<pre class="prettyprint lang-javascript linenums:1680">
+// list of testimonials items to loop through it
+testimonialsItems: [
+  {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-1.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.</span>',
+      ar: '<span class="yellow-highlight">محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Terrell Grimes</span>', ar: '<span class="yellow-highlight">جابر العواني</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Photographer</span>', ar: '<span class="yellow-highlight">مصور فوتوغرافي</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-2.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.</span>',
+      ar: '<span class="yellow-highlight">فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Lonny Corkery</span>', ar: '<span class="yellow-highlight">حسون القلال</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Project Manager</span>', ar: '<span class="yellow-highlight">مدير المشاريع</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-3.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.</span>',
+      ar: '<span class="yellow-highlight">محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Max Schmidt DDS</span>', ar: '<span class="yellow-highlight">مصطفى الخليفي</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">CEO, Designer</span>', ar: '<span class="yellow-highlight">أخصائي SEO</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-4.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.</span>',
+      ar: '<span class="yellow-highlight">عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Amir Stoltenberg</span>', ar: '<span class="yellow-highlight">عباس العنابي</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Sales Manager</span>', ar: '<span class="yellow-highlight">مدير مبيعات</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-5.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!</span>',
+      ar: '<span class="yellow-highlight">يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Kenton Marquardt</span>', ar: '<span class="yellow-highlight">سمير النجار</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Art Director</span>', ar: '<span class="yellow-highlight">آرت دايركتور</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-6.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.</span>',
+      ar: '<span class="yellow-highlight">أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Reyna Hammes</span>', ar: '<span class="yellow-highlight">أمير داوود</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Motion Graphic Animator</span>', ar: '<span class="yellow-highlight">مصمم موشن جرافيك</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-7.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.</span>',
+      ar: '<span class="yellow-highlight">أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Jovan Parisian</span>', ar: '<span class="yellow-highlight">منصور السقاط</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Motion Graphic Animator</span>', ar: '<span class="yellow-highlight">مصمم موشن جرافيك</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-8.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!</span>',
+      ar: '<span class="yellow-highlight">يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Pasquale Deckow</span>', ar: '<span class="yellow-highlight">عطا بن عاشور</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Art Director</span>', ar: '<span class="yellow-highlight">آرت دايركتور</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-9.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.</span>',
+      ar: '<span class="yellow-highlight">عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Rosa Ferry</span>', ar: '<span class="yellow-highlight">نافع حاتم</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Sales Manager</span>', ar: '<span class="yellow-highlight">مدير مبيعات</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-10.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.</span>',
+      ar: '<span class="yellow-highlight">محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Keshaun Robel</span>', ar: '<span class="yellow-highlight">صدقي الطويل</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">CEO, Designer</span>', ar: '<span class="yellow-highlight">أخصائي SEO</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-11.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.</span>',
+      ar: '<span class="yellow-highlight">فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Casper Paucek</span>', ar: '<span class="yellow-highlight">حسان ادريس</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Project Manager</span>', ar: '<span class="yellow-highlight">مدير المشاريع</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-12.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.</span>',
+      ar: '<span class="yellow-highlight">محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Archibald Fadel</span>', ar: '<span class="yellow-highlight">مجد الكافي</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Photographer</span>', ar: '<span class="yellow-highlight">مصور فوتوغرافي</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-13.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.</span>',
+      ar: '<span class="yellow-highlight">محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Tabitha Denesik</span>', ar: '<span class="yellow-highlight">آسر بنسلامة</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Photographer</span>', ar: '<span class="yellow-highlight">مصور فوتوغرافي</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-14.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.</span>',
+      ar: '<span class="yellow-highlight">فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Javon Bogan</span>', ar: '<span class="yellow-highlight">صهيب الشريف</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Project Manager</span>', ar: '<span class="yellow-highlight">مدير المشاريع</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-15.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.</span>',
+      ar: '<span class="yellow-highlight">محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Duncan Kemmer</span>', ar: '<span class="yellow-highlight">سيد كرم</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">CEO, Designer</span>', ar: '<span class="yellow-highlight">أخصائي SEO</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-16.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.</span>',
+      ar: '<span class="yellow-highlight">عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Coy Johns</span>', ar: '<span class="yellow-highlight">هيثم الشريف</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Sales Manager</span>', ar: '<span class="yellow-highlight">مدير مبيعات</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-17.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!</span>',
+      ar: '<span class="yellow-highlight">يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Murphy Roberts</span>', ar: '<span class="yellow-highlight">إسلام مصطفى</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Art Director</span>', ar: '<span class="yellow-highlight">آرت دايركتور</span>' }
+  }, {
+    imgUrl: '<span class="blue-highlight">assets/images/testimonials/testimonials-18.jpg</span>',
+    quoteContent: {
+      en: '<span class="yellow-highlight">Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.</span>',
+      ar: '<span class="yellow-highlight">أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.</span>'
+    },
+    quoteAuthor: { en: '<span class="yellow-highlight">Dimitri Lockman</span>', ar: '<span class="yellow-highlight">وسيم السقا</span>' },
+    jobTitle: { en: '<span class="yellow-highlight">Motion Graphic Animator</span>', ar: '<span class="yellow-highlight">مصمم موشن جرافيك</span>' }
+  }
+]
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact" class="section">
+          <div class="section-content">
+            <h2>Contact Me</h2>
+            <hr><br>
+            <h3>Title & Description</h3>
+            <ul>
+              <li>
+                To change the title and description of the <strong>Contact Me</strong> section, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:495">
+&lt;!-- start of contact section --&gt;
+&lt;div id="contact" class="contact-section section" tabindex="-1"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-content row"&gt;
+
+      &lt;!-- text box --&gt;
+      &lt;div class="contact-text col-lg-6"&gt;
+        &lt;div class="text-box"&gt;
+          &lt;span class="subtitle"&gt;<span class="yellow-highlight">contact</span>&lt;/span&gt;
+          &lt;h2&gt;
+            <span class="yellow-highlight">Have You Any Project?</span>
+            &lt;br&gt;
+            <span class="yellow-highlight">Please Drop a Message</span>
+          &lt;/h2&gt;
+          &lt;p&gt;
+            <span class="yellow-highlight">Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.</span>
+          &lt;/p&gt;
+        &lt;/div&gt;
+        <span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Contact Info</h3>
+            <ul>
+              <li>
+                To change the <strong>Contact Info</strong> text, open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                Replace the red highlighted text with your email addresses and phone numbers in a valid format.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:513">
+<span class="more">...</span>
+&lt;!-- contact info --&gt;
+&lt;ul class="contact-info"&gt;
+  &lt;li&gt;
+    &lt;img src="assets/images/icons/address.png" alt="Address"&gt;
+    &lt;div&gt;
+      &lt;strong&gt;<span class="yellow-highlight">Address:</span>&lt;/strong&gt;
+      <span class="yellow-highlight">941 Saqrqorish Road, alandalos, grnata, wa 47122-4194</span>
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;img src="assets/images/icons/phone.png" alt="Phone"&gt;
+    &lt;div&gt;
+      &lt;strong&gt;<span class="yellow-highlight">Phone:</span>&lt;/strong&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="tel:<span class="red-highlight">02966202290</span>" class="ltr-dir"&gt;<span class="yellow-highlight">(02) 966 202 290</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="tel:<span class="red-highlight">02966202291</span>" class="ltr-dir"&gt;<span class="yellow-highlight">(02) 966 202 291</span>&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;img src="assets/images/icons/email.png" alt="Email"&gt;
+    &lt;div&gt;
+      &lt;strong&gt;<span class="yellow-highlight">Email:</span>&lt;/strong&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="mailto:<span class="red-highlight">info@nafie.com</span>"&gt;<span class="yellow-highlight">info@nafie.com</span>&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="mailto:<span class="red-highlight">support@nafie.com</span>"&gt;<span class="yellow-highlight">support@nafie.com</span>&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+<span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Social Icons</h3>
+            <ul>
+              <li>
+                To change the social networks titles open the <strong>index.html</strong> file, find the following code and replace the yellow highlighted text with new titles.
+              </li>
+              <li>
+                To change icons for social networks, go to <a href="https://themes.webrouk.com/font-awesome-icons/font-awesome-icons.html" target="_blank" rel="noreferrer">this page</a>, choose the icon you want and copy its class. Then replace the blue highlighted text with the new class.
+              </li>
+              <li>
+                Replace the red highlighted text with the <strong>URLs</strong> for social icons.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:544">
+  <span class="more">...</span>
+  &lt;!-- social links --&gt;
+  &lt;ul class="social"&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">Facebook</span>', dir: 'top'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-facebook</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">Twitter</span>', dir: 'top'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-twitter</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">LinkedIn</span>', dir: 'top'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-linkedin</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href="<span class="red-highlight">#</span>" target="_blank" rel="noreferrer" v-tooltip="{text: '<span class="yellow-highlight">YouTube</span>', dir: 'top'}"&gt;
+        &lt;i class="fa <span class="blue-highlight">fa-youtube-play</span>" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+<span class="more">...</span>
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <hr><br>
+            <h3>Send Message</h3>
+            <br>
+            <h4>1- Contact Form:</h4>
+            <ul>
+              <li>
+                To change the text in <strong>Contact Form</strong>, replace the yellow highlighted text with new text.
+              </li>
+              <li>
+                To change the minimum number of characters required in the <strong>Name field</strong>, replace the text highlighted in red with new numbers.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:569">
+      <span class="more">...</span>
+      &lt;!-- contact form --&gt;
+      &lt;div class="col-lg-6"&gt;
+        &lt;form ref="contactForm"
+          class="contact-form form-styled"
+          action="contact_form.php"
+          data-success-msg="<span class="yellow-highlight">Message sent successfully!</span>"
+          data-err-msg="<span class="yellow-highlight">Oops! something went wrong, please try again.</span>"&gt;
+          &lt;div class="group"&gt;
+            &lt;label&gt;<span class="yellow-highlight">Name</span>&lt;/label&gt;
+            &lt;div class="control has-prefix-icon"&gt;
+              &lt;input type="text"
+                name="name"
+                placeholder="<span class="yellow-highlight">e.g. John Doe</span>"
+                minlength="<span class="red-highlight">3</span>"
+                required&gt;
+              &lt;i class="fa fa-user-circle prefix-icon" aria-hidden="true"&gt;&lt;/i&gt;
+
+              &lt;!-- validation errors messages --&gt;
+              &lt;div class="errors-msgs"&gt;
+                &lt;input class="required" type="hidden" value="<span class="yellow-highlight">Name is required</span>"&gt;
+                &lt;input class="minLength" type="hidden" value="<span class="yellow-highlight">Name must be at least 3 characters</span>"&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="group"&gt;
+            &lt;label&gt;<span class="yellow-highlight">Email</span>&lt;/label&gt;
+            &lt;div class="control has-prefix-icon"&gt;
+              &lt;input class="ltr-dir"
+                type="email"
+                inputmode="email"
+                name="email"
+                placeholder="<span class="yellow-highlight">e.g. john.doe@gmail.com</span>"
+                required&gt;
+              &lt;i class="fa fa-envelope prefix-icon" aria-hidden="true"&gt;&lt;/i&gt;
+
+              &lt;!-- validation errors messages --&gt;
+              &lt;div class="errors-msgs"&gt;
+                &lt;input class="required" type="hidden" value="<span class="yellow-highlight">Email is required</span>"&gt;
+                &lt;input class="invalid" type="hidden" value="<span class="yellow-highlight">Please enter a valid email address</span>"&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="group phone-number"&gt;
+            &lt;label&gt;<span class="yellow-highlight">Phone</span> &lt;span class="optional"&gt;(Optional)&lt;/span&gt;&lt;/label&gt;
+            &lt;div class="control has-prefix-icon"&gt;
+              &lt;input type="tel"
+                inputmode="tel"
+                name="phone"
+                placeholder="<span class="yellow-highlight">Phone Number</span>"&gt;
+              &lt;i class="fa fa-phone prefix-icon" aria-hidden="true"&gt;&lt;/i&gt;
+
+              &lt;!-- validation errors messages --&gt;
+              &lt;div class="errors-msgs"&gt;
+                &lt;input class="invalid" type="hidden" value="<span class="yellow-highlight">Please enter a valid Phone Number</span>"&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="group"&gt;
+            &lt;label&gt;<span class="yellow-highlight">Message</span>&lt;/label&gt;
+            &lt;div class="control has-prefix-icon"&gt;
+              &lt;textarea name="message" placeholder="<span class="yellow-highlight">Write message...</span>" required&gt;&lt;/textarea&gt;
+              &lt;i class="fa fa-comments prefix-icon" aria-hidden="true"&gt;&lt;/i&gt;
+
+              &lt;!-- validation errors messages --&gt;
+              &lt;div class="errors-msgs"&gt;
+                &lt;input class="required" type="hidden" value="<span class="yellow-highlight">Message is required</span>"&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="group"&gt;
+            &lt;div class="control"&gt;
+              &lt;button class="submit-btn btn btn-dark" type="button" @click="contactFormValidation"&gt;<span class="yellow-highlight">Send</span>&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of contact section --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+            <br>
+            <h4>2- Contact Email:</h4>
+            <ul>
+              <li>
+                Open the <strong>contact_form.php</strong> file and replace the red highlighted text with your <strong>email address</strong> to receive the messages on it.
+              </li>
+            </ul>
+<pre class="prettyprint lang-php linenums:3">
+$mail_to  = "<span class="red-highlight">youremail@email.com</span>";  // replace it with your email
+</pre>
+          </div>
+        </section>
+
+        <!-- archive page -->
+        <section id="archive-page" class="section">
+          <div class="section-content">
+            <h2>Archive Page</h2>
+            <hr>
+            <ul>
+              <li>
+                To change the text in <strong>Archive</strong> page, open the <strong>archive-portfolio.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:166">
+&lt;!-- start of archive page --&gt;
+&lt;div class="archive-page portfolio-section section page"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="section-title"&gt;
+      &lt;span class="subtitle"&gt;{{ portfolioArchiveName }}&lt;/span&gt;
+      &lt;h2&gt;
+        <span class="yellow-highlight">The latest projects in</span>
+        &lt;br&gt;
+        {{ portfolioArchiveName }} <span class="yellow-highlight">taxonomy</span>
+      &lt;/h2&gt;
+    &lt;/div&gt;
+
+    &lt;div class="section-content"&gt;
+      &lt;!-- portfolio items --&gt;
+      &lt;ul class="portfolio-items" ref="portfolioItems" data-no-works-msg="<span class="yellow-highlight">No works to load</span>"&gt;
+        &lt;li class="portfolio-item"
+          v-for="work in filteredPortfolioItems"
+          :key="work.title.en"&gt;
+          &lt;a :href="work.url" target="_blank" rel="noopener"&gt;
+            &lt;div class="item-img"&gt;
+              &lt;img :src="work.imgUrl" :alt="work.title.en"&gt;
+            &lt;/div&gt;
+            &lt;div class="item-details"&gt;
+              &lt;h3 class="title"&gt;{{ work.title.en }}&lt;/h3&gt;
+              &lt;div class="date"&gt;{{ work.date.en }}&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;button class="more" @click="getPortfolioItems"&gt;<span class="yellow-highlight">Load more works</span>&lt;/button&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of archive page --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- 404 page -->
+        <section id="not-found-page" class="section">
+          <div class="section-content">
+            <h2>404 Page</h2>
+            <hr>
+            <ul>
+              <li>
+                To change the text in <strong>404</strong> page, open the <strong>404.html</strong> file, find the following code and replace the yellow highlighted text with new text.
+              </li>
+            </ul>
+<pre class="prettyprint lang-html linenums:166">
+&lt;!-- start of 404 page --&gt;
+&lt;div class="not-found-page page"&gt;
+  &lt;div class="not-found-content"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="not-found-img"&gt;
+        &lt;img src="assets/images/404.png" alt="404"&gt;
+      &lt;/div&gt;
+      &lt;div class="not-found-text"&gt;
+        &lt;h2 class="title"&gt;<span class="yellow-highlight">Oops! That page can’t be found</span>&lt;/h2&gt;
+        &lt;p class="desc"&gt;<span class="yellow-highlight">We're sorry, we couldn't find the page you requested.</span>&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;a href="index.html" class="btn btn-primary"&gt;<span class="yellow-highlight">Back to Home</span>&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end of 404 page --&gt;
+</pre>
+            <p>Save the file and then refresh the template in your browser to see the changes result.</p>
+          </div>
+        </section>
+
+        <!-- thank you section -->
+        <section id="thank-you" class="section">
+          <div class="section-content">
+            <h2>Thank You</h2>
+            <hr>
+            <p>
+              Finally thank you very much for choosing this template. Please keep in mind that we are working very hard to providing better quality in coming days.
+            </p>
+            <p>
+              If you have any questions that are beyond the scope of this help file, please contact us via our <a href="https://themeforest.net/user/webrouk" target="_blank" rel="noreferrer">profile</a>.
+            </p>
+            <p>
+              For some extra help along the way, check out these great learning guide: <a href="https://webdesign.tutsplus.com/tutorials/how-to-customize-an-html-template--cms-25886" target="_blank" rel="noreferrer">How to Customize an HTML Template</a>.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="prettify/prettify.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
